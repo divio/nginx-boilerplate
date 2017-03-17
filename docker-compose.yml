@@ -1,0 +1,7 @@
+web:
+  build: .
+  volumes:
+    - "./nginx.conf:/etc/nginx/nginx.conf:ro"
+    - "./html:/usr/share/nginx/html:ro"
+  ports:
+   - "8000:80"
