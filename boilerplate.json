@@ -2,5 +2,5 @@
    "package-name":"nginx-boilerplate",
    "templates":[],
    "identifier":"nginx",
-   "version":"1.0.0"
+   "version":"1.0.1"
 }
